@@ -1,5 +1,5 @@
 import 'package:get_it/get_it.dart';
-import 'package:notes/provider/notes_provider.dart';
+import 'package:notes/servies/get_provider.dart';
 
 final GetIt getIt = GetIt.instance;
 
