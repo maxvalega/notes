@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:go_router/go_router.dart';
-import 'package:notes/dashboard.dart';
 import 'package:notes/get/get_notifer.dart';
+import 'package:notes/screen/dashboard.dart';
 
 void main() async {
   await Hive.initFlutter();
