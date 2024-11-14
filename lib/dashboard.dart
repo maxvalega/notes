@@ -147,7 +147,7 @@ class _DashboardState extends State<Dashboard> {
               ),
             ),
             const SizedBox(height: 16),
-            Expanded(child: const NotesListView()), // Use Expanded here
+            const Expanded(child: NotesListView()),
           ],
         ),
       ),
@@ -170,7 +170,7 @@ class NotesListView extends ConsumerWidget {
             ),
           )
         : ListView.builder(
-            shrinkWrap: true, // Keep this true to allow the list to scroll
+            shrinkWrap: true,
             itemCount: notesWatcher.notesList.length,
             itemBuilder: (BuildContext context, int index) {
               return Padding(
