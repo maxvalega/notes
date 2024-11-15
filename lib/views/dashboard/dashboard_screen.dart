@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:notes/view_models/get_notifier.dart';
 import 'package:notes/view_models/get_provider.dart';
 
 class Dashboard extends StatefulWidget {
@@ -16,6 +17,7 @@ class _DashboardState extends State<Dashboard> {
   void initState() {
     super.initState();
     textfocusedNode = FocusNode();
+    setup();
   }
 
   @override
