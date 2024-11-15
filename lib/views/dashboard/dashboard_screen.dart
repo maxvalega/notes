@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:notes/servies/get_provider.dart';
+import 'package:notes/view_models/get_provider.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
